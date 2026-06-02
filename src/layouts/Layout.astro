@@ -7,6 +7,7 @@ const { title } = Astro.props;
 
 import SpeedInsights from "@vercel/speed-insights/astro";
 import Analytics from "@vercel/analytics/astro";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -19,6 +20,7 @@ import Analytics from "@vercel/analytics/astro";
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="icon" href="/favicon.webp" type="image/webp" />
+    <link rel="canonical" href={canonicalURL} />
     <title>{title}</title>
   </head>
   <body>
