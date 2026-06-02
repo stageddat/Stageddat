@@ -18,7 +18,9 @@
 
 <div align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,js,ts,astro,react,nodejs,tailwind,vercel" />
+    <img src="https://skillicons.dev/icons?i=javascript,ts,py,java,kotlin,go&perline=10" /><br/>
+    <img src="https://skillicons.dev/icons?i=docker,astro,nextjs,tailwind,arch,discordjs&perline=10" /><br/>
+    <img src="https://skillicons.dev/icons?i=react,bash,sqlite,mysql,postgresql,redis&perline=10" />
   </a>
 </div>
 
