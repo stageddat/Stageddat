@@ -3,38 +3,41 @@
     <h1
       class="heroTitle text-7xl md:text-8xl lg:text-[10rem] h-[1em] flex items-center"
     >
-      hey <span class="wave" role="img">👋</span>
+      gpg key <span class="wave" role="img">🔑</span>
     </h1>
 
     <div class="h-auto md:h-36 flex items-center my-2">
       <h2
-        class="heroSubtitle text-4xl sm:text-5xl md:text-7xl lg:text-[9rem] leading-none"
+        class="heroSubtitle text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight"
       >
-        i'm <span class="whitespace-nowrap">stageddat</span>!
+        fingerprint:<br />
+        <span class="block sm:inline font-mono font-normal">
+          2522 88BF 2C66 ECF2 A839 E28D 561C 989D 06A0 13EB
+        </span>
       </h2>
     </div>
 
     <div
       class="flex flex-wrap items-center space-x-4 sm:space-x-6 mt-6 ml-0 sm:ml-4 text-2xl sm:text-3xl font-handwriting min-h-[40px]"
     >
+      <a href="/" class="hover:text-yellow-500 hover:underline">back</a>
+      <a href="/pubkey.txt" class="hover:text-green-500 hover:underline">.txt</a
+      >
+      <a href="/pubkey.asc" class="hover:text-red-500 hover:underline">.asc</a>
       <a
-        href="https://github.com/stageddat"
+        href="https://github.com/stageddat.gpg"
         target="_blank"
         rel="noopener noreferrer"
         class="hover:text-purple-500 hover:underline">github</a
       >
       <a
-        href="mailto:hello@stageddat.dev"
-        class="hover:text-red-500 hover:underline">mail</a
-      >
-      <a
-        href="https://discord.com/users/756509638169460837"
+        href="https://keys.openpgp.org/vks/v1/by-fingerprint/252288BF2C66ECF2A839E28D561C989D06A013EB"
         target="_blank"
         rel="noopener noreferrer"
-        class="hover:text-blue-500 hover:underline">discord</a
+        class="hover:text-blue-500 hover:underline"
       >
-      <a href="/gpg" class="hover:text-yellow-500 hover:underline">gpg key</a>
-      <a href="/fun" class="hover:text-green-500 hover:underline">fun :3</a>
+        openpgp keyserver
+      </a>
     </div>
   </div>
 </div>
