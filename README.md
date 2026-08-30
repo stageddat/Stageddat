@@ -6,11 +6,11 @@
 
 <h2 align="left">about me</h2>
 
-<p align="left">- 💤 i like sleep :3</p>
-<p align="left">- ⛏️ you may not rest, there are monsters nearby</p>
-<p align="left">- 🛞 i broke the goddamn wheel</p>
-<p align="left">- 🚀 spread managed democracy across the galaxy</p>
-<p align="left">- 🟨🟦🪨</p>
+* 💤 i like sleep :3
+* ⛏️ you may not rest, there are monsters nearby
+* 🛞 i broke the goddamn wheel
+* 🚀 spread managed democracy across the galaxy
+* 🟨🟦🪨
 
 ###
 
