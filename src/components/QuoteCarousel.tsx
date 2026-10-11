@@ -39,7 +39,7 @@ export default function QuoteCarousel({ quotes }: QuoteCarouselProps) {
 			<CarouselContent>
 				{quotes.map((quote, index) => (
 					<CarouselItem key={index}>
-						<div className="flex flex-col md:flex-row gap-6 p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg border border-gray-100 h-[400px] md:h-[300px]">
+						<div className="flex flex-col md:flex-row gap-6 p-8 bg-linear-to-br from-gray-50 to-white rounded-xl shadow-lg border border-gray-100 h-[400px] md:h-[300px]">
 							<div className="w-full md:w-1/3 flex items-center justify-center shrink-0">
 								<div className="relative w-40 h-40 rounded-full overflow-hidden shadow-md">
 									<img
